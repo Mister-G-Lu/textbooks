@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>{+title /}</title>
+    
+        <link rel="stylesheet" href="/css/app.css">
+        <link rel="stylesheet" href="/css/foundation.css">
+    </head>
+    <body>
+        <div class="row">
+            <div class = "large-10 columns">
+            <h1>Books</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class = "large-10 columns">
+                <div class = "top-bar">
+                    <div class = "top-bar-left">
+                        <ul class ="menu">
+                            <li><a href ="/">Home</a><li>
+                            <li><a href ="/pages/about">About</a><li>
+                            <li><a href ="/Cart">Cart</a><li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class = "large-10 columns">
+            {+body /}
+            </div>
+        </div>
+        
+        <footer>
+            <div class = "large-10 columns">
+            <p> MyBooks copyright 2019 </p>
+            </div>
+        </footer>
+        <script data-main="/js/app" src="/components/requirejs/require.js"></script>
+    
+    </body>
+</html>

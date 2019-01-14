@@ -1,0 +1,21 @@
+{>"layouts/master" /}
+
+{<body}
+    <div class = "large-3 columns book">
+        <img src = "/img/node1.jpg">
+        <h4> Professional Node.js </h4>
+        <p> this book is excellent for learning node.js.</p>
+        <div class = "price"> Price is <span> $19.99</span></div>
+        <br>
+        <a href ="/books/details/1" class = "button small">Book deails</a>
+    </div>
+    <div class = "large-3 columns book">
+        <img src = "/img/node2.jpg">
+        <h4> Node.js blueprints </h4>
+        <p> this book is excellent for learning node.js.</p>
+        <div class = "price"> Price is <span> $24.99</span></div>
+        <br>
+        <a href ="/books/details/1" class = "button small">Book deails</a>
+    </div>
+    <h1>{@pre type="content" key="greeting"/}</h1>
+{/body}
